@@ -4,11 +4,7 @@
 # Author:                       Michael Plaskett    
 # Date of latest revision:      07/25/2023
 # Purpose:                     Creating and Running the Script
-
-# Declaration of variables
-
-# Declaration of functions
-
+# Resource Used: Chalenge 02 .png
 
 # Main
 
