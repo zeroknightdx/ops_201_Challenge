@@ -4,7 +4,7 @@
 # Author:                       Michael Plaskett    
 # Date of latest revision:      07/25/2023
 # Purpose:                     Creating and Running the Script
-# Resource Used: Chalenge 02 .png
+# Resource Used: Chalenge02.png
 
 # Main
 
