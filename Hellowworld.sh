@@ -3,7 +3,7 @@
 # Script Name:                  My First Bash Script
 # Author:                       Michael Plaskett    
 # Date of latest revision:      07/25/2023
-# Purpose:                      Purpose
+# Purpose:                     Creating and Running the Script
 
 # Declaration of variables
 
