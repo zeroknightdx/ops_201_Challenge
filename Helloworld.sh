@@ -6,9 +6,11 @@
 # Purpose:                     Creating and Running the Script
 # Resource Used: Chalenge02.png
 
+wow="I am working perfectly!"
+
 # Main
 
 echo "Hello World??"
-echo I am working perfectly!
+echo $wow
 
 # End
