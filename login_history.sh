@@ -13,14 +13,6 @@ echo "You need root/administrator privileges to access login history."
         return 1
     fi
  last
+echo "The World is Fun and New"
 }
-log_login_history() {
-    local log_file="$HOME/login_history.log"
-    local timestamp=$(date +"%Y-%m-%d %T")
-    local user="$USER"
-    local remote_addr="$SSH_CONNECTION"
-
-    echo "User: $user - Logged in at: $timestamp - From: $remote_addr" >> "$log_file"
-}
-
 # End
