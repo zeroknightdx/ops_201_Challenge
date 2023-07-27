@@ -5,6 +5,7 @@
 # Date of latest revision:      07/26/2023
 # Purpose:                     add functions to our bash script
 # Resource Used: Challenge03.png
+
 # Main
 function login_history() {
 
@@ -14,5 +15,14 @@ echo "You need root/administrator privileges to access login history."
     fi
  last
 echo "The World is Fun and New"
+}
+
+log_login_history() {
+    local log_file="$HOME/login_history.log"
+    local timestamp=$(date +"%Y-%m-%d %T")
+    local user="$USER"
+    local remote_addr="$SSH_CONNECTION"
+
+    echo "User: $user - Logged in at: $timestamp - From: $remote_addr" >> "$log_file"
 }
 # End
