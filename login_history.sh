@@ -19,6 +19,6 @@ login_history() {
     # Display login history using last command
     last
 
-    echo "The World is Fun and New"
+echo "The World is Fun and New"
 }
 # End
