@@ -4,7 +4,7 @@
 # Author:                       Michael Plaskett    
 # Date of latest revision:      07/26/2023
 # Purpose:                     add functions to our bash script
-# Resource Used: 
+# Resource Used: Challenge03.png
 pie=“This is the login history”
 # Main
 echo $pie
