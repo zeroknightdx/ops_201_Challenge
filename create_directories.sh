@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Script Name:                  My First Bash Script
+# Script Name:                  My First create directory Script
 # Author:                       Michael Plaskett    
 # Date of latest revision:      07/27/2023
-# Purpose:                     
+# Purpose:    lraen to Create four directories using the script and to Load each directory path into an array 
 # Resource Used: challenge04.png
 # Main
 
