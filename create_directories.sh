@@ -4,7 +4,7 @@
 # Author:                       Michael Plaskett    
 # Date of latest revision:      07/27/2023
 # Purpose:                     
-# Resource Used: 
+# Resource Used: challenge04.png
 # Main
 
 # Names of the four directories in an array
@@ -21,4 +21,5 @@ done
 
 # Display a message after creating the files
 echo "New .txt files created in the directories."
+
 # End
