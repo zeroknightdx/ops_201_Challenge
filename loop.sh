@@ -3,8 +3,8 @@
 # Script Name:                  My First loop Script
 # Author:                       Michael Plaskett    
 # Date of latest revision:      07/29/2023
-# Purpose:                     
-# Resource Used: 
+# Purpose:                     to learn how to loop scrip wiht the help gpt
+# Resource Used: Challenge05.png
 
 
 # Main
