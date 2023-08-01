@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script Name:                  My First createConditionals Script
+# Script Name:                  My First create Conditionals Script
 # Author:                       Michael Plaskett    
 # Date of latest revision:      07/31/2023
 # Purpose:    Create a script that detects if a file or directory exists, then creates it if it does not exist 
@@ -36,3 +36,4 @@ while true; do
         echo "The file or folder '$file_to_check' was created."
     fi
 done
+# End
