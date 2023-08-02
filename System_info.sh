@@ -1,4 +1,10 @@
+#!/bin/bash
 
+# Script Name:                  My First System info Script
+# Author:                       Michael Plaskett    
+# Date of latest revision:     08/01/2023
+# Purpose:                     Creating an Systom info Script
+# Resource Used:
 
 
 
