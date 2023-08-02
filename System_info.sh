@@ -11,7 +11,7 @@
 
 #!/bin/bash
 
-echo "Name of the computer:"
+echo "ops201:"
 sudo lshw -C system | grep -E 'product|vendor|physical id|bus info|width' | sed 's/^[ \t]*//'
 
 echo -e "\nCPU Information:"
