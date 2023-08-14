@@ -4,7 +4,7 @@
 # Author:                       Michael Plaskett    
 # Date of latest revision:     08/12/2023
 # Purpose:                   script that asks a user to type a domain, then displays information about the typed domain.
-# Resource Used: 
+# Resource Used:   
 
 #!/bin/bash
 
