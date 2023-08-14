@@ -1,0 +1,74 @@
+#!/bin/bash
+
+# Script Name:                 fetch script
+# Author:                       Michael Plaskett    
+# Date of latest revision:     08/12/2023
+# Purpose:                   script that asks a user to type a domain, then displays information about the typed domain.
+# Resource Used: 
+
+#!/bin/bash
+
+# Function to perform network queries and save results to a file
+perform_network_queries() {
+    domain="$1"
+    filename="network_queries_results.txt"
+
+    # Run whois
+    echo "WHOIS:" > "$filename"
+    whois "$domain" >> "$filename"
+
+    # Run dig
+    echo -e "\n\nDIG:" >> "$filename"
+    dig "$domain" >> "$filename"
+
+    # Run host
+    echo -e "\n\nHOST:" >> "$filename"
+    host "$domain" >> "$filename"
+
+    # Run nslookup
+    echo -e "\n\nNSLOOKUP:" >> "$filename"
+    nslookup "$domain" >> "$filename"
+
+    # Open the results file in a text editor
+    echo -e "\nResults saved to $filename\nOpening in text editor..."
+    sleep 2
+    your_text_editor "$filename"  # Replace "your_text_editor" with your preferred text editor command
+}
+
+# Main menu
+echo "Select an option:"
+echo "1. Option 1"
+echo "2. Option 2"
+echo "3. Option 3"
+echo "4. Option 4"
+echo "5. Option 5"
+echo "6. Perform Network Queries"
+
+read choice
+
+case $choice in
+    1)
+        # Option 1 implementation
+        ;;
+    2)
+        # Option 2 implementation
+        ;;
+    3)
+        # Option 3 implementation
+        ;;
+    4)
+        # Option 4 implementation
+        ;;
+    5)
+        # Option 5 implementation
+        ;;
+    6)
+        # Option 6: Perform network queries
+        echo "Enter a domain name:"
+        read domain
+        perform_network_queries "$domain"
+        ;;
+    *)
+        echo "Invalid choice"
+        ;;
+esac
